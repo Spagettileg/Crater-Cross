@@ -6,7 +6,7 @@ A live demo can be found []().
 
 ***
 
-![](static/images/oxo1-pic.png) 
+![](static/images/oxo1-pic.png/?style=centerpic) 
 
 ## Table of Contents
 1. [UXD Considerations](#uxd-considerations)
