@@ -112,6 +112,8 @@ Test analysis and reporting can be viewed in a separate [TESTS.md](https://githu
 
 ### Media
 
+Image used for README.md introduction sourced from [Board Games Galore Wikia](https://board-games-galore.fandom.com/wiki/Tic-tac-toe)
+
 ### Acknowledgements
 
 
