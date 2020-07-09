@@ -70,6 +70,6 @@ Chrome   |83.0.4103.116
 Edge     |83.0.478.58
 Firefox  |75.0
 Safari   |12.4.6
-Opera    |68.0.3618.63
+Opera    |68.0.3618.173
 
 ### Known Bugs
