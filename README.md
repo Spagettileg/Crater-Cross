@@ -6,7 +6,7 @@ A live demo can be found []().
 
 ***
 
-![](static/img/frontpage.png) - **Add image here**
+![](static/images/oxo-pic.png) 
 
 ## Table of Contents
 1. [UXD Considerations](#uxd-considerations)
