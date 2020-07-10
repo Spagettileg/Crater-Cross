@@ -1,3 +1,7 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+
 // x1 gaming square is configured to a button
 
 class Square extends React.Component {
