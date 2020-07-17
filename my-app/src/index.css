@@ -1,50 +1,50 @@
 body {
-    font: 0.875rem "Century Gothic", futura, sans-serif;
-    margin: 1.25rem; 
+  font: 0.875rem "Century Gothic", Futura, sans-serif;
+  margin: 1.25rem;
 }
 
 ol, ul {
-    padding-left: 1.875rem;
+  padding-left: 1.875rem;
 }
 
 .board-row:after {
-    clear: both;
-    content: "";
-    display: table;
+  clear: both;
+  content: "";
+  display: table;
 }
 
 .status {
-    margin-bottom: 0.625rem;
+  margin-bottom: 0.625rem;
 }
 
 .square {
-    background: #FFF;
-    border: 1px solid #999;
-    float: left;
-    font-size: 1.5rem;
-    font-weight: 600;
-    line-height: 2.125rem;
-    height: 2.125rem;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 2.125rem;
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2.125rem;
+  height: 2.125rem;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 2.125rem;
 }
 
 .square:focus {
-    outline: none;
+  outline: none;
 }
 
 .kbd-navigation .square:focus {
-    background: #ddd;
+  background: #ddd;
 }
 
 .game {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .game-info {
-    margin-left: 1.25rem;
+  margin-left: 1.25rem;
 }
