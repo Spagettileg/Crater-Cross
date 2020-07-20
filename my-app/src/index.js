@@ -5,6 +5,13 @@ import './index.css';
 // Configure a square as a button function
 
 class Square extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: null,
+    };
+  }
+  
   render() {
     return (
       <button className="square" onClick={() => alert('click')}>
