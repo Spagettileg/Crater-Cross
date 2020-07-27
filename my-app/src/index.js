@@ -2,20 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-// Configure a square as a button function
+// Configure a square function component
 
-class Square extends React.Component {
-  render() {
+function Square(props) {
     return (
       <button
         className="square"
-        onClick={() => this.props.onClick()}
+        onClick={props.onClick}
         >
-        {this.props.value}
+        {props.value}
       </button>
     );
   }
-}
+
 
 // Create gaming board. Squares based on index scoring from 0 to 8
 
