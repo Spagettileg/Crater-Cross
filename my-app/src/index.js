@@ -32,6 +32,10 @@ class Board extends React.Component {
   // Incidence of 'X' & 'O' and xIsNext boolean allows for player turns
   handleClick(i) {
     const squares = this.state.squares.slice();
+    // function returns early if game won or Square already filled 
+    if (calculateWinner(squares) || squares[i]) {
+      return;
+    }
     squares[i] = this.state.xIsNext ? 'X' : 'O';
     this.setState({
       squares: squares,
