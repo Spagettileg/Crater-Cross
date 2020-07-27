@@ -29,6 +29,12 @@ class Board extends React.Component {
     };
   }
   
+  handleClick(i) {
+    const squares = this.state.squares.slice();
+    squares[i] = 'X';
+    this.setState({squares: squares});
+  }
+  
   // Returned element is split for readability. Parentheses added so JS
   // doesn't insert a semicolon after return and break the code.
   renderSquare(i) {
