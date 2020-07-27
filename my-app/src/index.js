@@ -36,8 +36,15 @@ class Board extends React.Component {
     };
   }
   
+  // Returned element is split for readability. Parentheses added so JS
+  // doesn't insert a semicolon after return and break the code.
   renderSquare(i) {
-    return <Square value={this.state.squares[i]} />;
+    return ( 
+      <Square
+        value={this.state.squares[i]}
+        onClick={() => this.handleClick(i)}
+      />
+    );
   }
 
   render() {
