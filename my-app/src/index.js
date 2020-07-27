@@ -27,8 +27,17 @@ class Square extends React.Component {
 // Create gaming board. Squares based on index scoring from 0 to 8
 
 class Board extends React.Component {
+  // Constructor helps control the Squares by passing a prop to each Square
+  // User options = X, O or null (blank)
+  constructor(props) {
+    super(props);
+    this.state = {
+      squares: Array(9).fill(null),
+    };
+  }
+  
   renderSquare(i) {
-    return <Square value={i} />;
+    return <Square value={this.state.squares[i]} />;
   }
 
   render() {
