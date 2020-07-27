@@ -50,8 +50,15 @@ class Board extends React.Component {
     );
   }
 
+  // Text produced to confirm the Crater-Cross champion
   render() {
-    const status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
+    const winner = calculateWinner(this.state.squares);
+    let status;
+    if (winner) {
+      status = 'Champion: + winner';
+    } else {
+      status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
+    }
 
     return (
       <div>
@@ -101,6 +108,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+// Winning combinations built with use of index scoring
 function calculateWinner(squares) {
   const lines = [
     [0, 1, 2],
