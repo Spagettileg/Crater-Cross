@@ -19,9 +19,9 @@ ol, ul {
 
 .square {
   background: #fff;
-  border: 1px solid #999;
+  border: 0.25rem solid #000839;
   float: left;
-  font-size: 1.5rem;
+  font-size: 7.5rem;
   font-weight: bold;
   line-height: 10rem;
   height: 10rem;
@@ -30,10 +30,16 @@ ol, ul {
   padding: 0;
   text-align: center;
   width: 10rem;
+  animation: square-spin 1.5s linear;
 }
 
 .square:focus {
   outline: none;
+}
+
+@keyframes square-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(90deg); }
 }
 
 .kbd-navigation .square:focus {
