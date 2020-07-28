@@ -42,6 +42,16 @@ ol, ul {
   to { transform: rotate(90deg); }
 }
 
+button.square[game-id="X"] {
+  /* Med Blue */
+  color: #005082;
+}
+
+button.square[game-id="O"] {
+  /* Yellow */
+  color: #FFA41B
+}
+
 .kbd-navigation .square:focus {
   background: #ddd;
 }
