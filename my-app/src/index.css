@@ -23,13 +23,13 @@ ol, ul {
   float: left;
   font-size: 1.5rem;
   font-weight: bold;
-  line-height: 2.125rem;
-  height: 2.125rem;
+  line-height: 10rem;
+  height: 10rem;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 2.125rem;
+  width: 10rem;
 }
 
 .square:focus {
