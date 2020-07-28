@@ -60,6 +60,14 @@ A live demo can be found []().
 Bootstrap was the chosen framework for styling my project. I used the bootstrap grid extensively to support responsiveness on mobile, tablet and desktop devices.  
 
 ### Colour Palette
+Colours used for **Crater-Cross** were sourced from [colorhunt](https://colorhunt.co/). The choice of colour palette support key gaming attributes of fun, co-ordination, decision making and competition. 
+
+Colour     |  Hex Code
+-----------|--------------
+Yellow     | #FFA41B
+Dark Blue  | #000839
+Med Blue   | #005082
+Light Blue | #00A8CC
 
 ### Typography
 
