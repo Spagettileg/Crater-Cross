@@ -8,6 +8,7 @@ function Square(props) {
     return (
       <button
         className="square"
+        game-id={props.value}
         onClick={props.onClick}
         >
         {props.value}
