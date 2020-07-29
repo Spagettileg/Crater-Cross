@@ -44,13 +44,17 @@ ol, ul {
 }
 
 button.square[game-id="X"] {
+  background-color: #FFA41B;
   /* Med Blue */
   color: #005082;
+  transform: scale(1.05);
 }
 
 button.square[game-id="O"] {
+  background-color: #005082;
   /* Yellow */
-  color: #FFA41B
+  color: #FFA41B;
+  transform: scale(1.05);
 }
 
 .kbd-navigation .square:focus {
