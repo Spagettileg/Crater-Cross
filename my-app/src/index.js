@@ -21,20 +21,6 @@ function Square(props) {
 
 class Board extends React.Component {
   
-  // Incidence of 'X' & 'O' and xIsNext boolean allows for player turns
-  handleClick(i) {
-    const squares = this.state.squares.slice();
-    // function returns early if game won or Square already filled 
-    if (calculateWinner(squares) || squares[i]) {
-      return;
-    }
-    squares[i] = this.state.xIsNext ? 'X' : 'O';
-    this.setState({
-      squares: squares,
-      xIsNext: !this.state.xIsNext,
-    });
-  }
-  
   // Returned element is split for readability. Parentheses added so JS
   // doesn't insert a semicolon after return and break the code.
   renderSquare(i) {
@@ -48,19 +34,8 @@ class Board extends React.Component {
 
   // Text produced to confirm the Crater-Cross champion
   render() {
-    const history = this.state.history;
-    const current = history[history.length - 1];
-    const winner = calculateWinner(current.squares);
-    let status;
-    if (winner) {
-      status = 'Winner: ' + winner;
-    } else {
-      status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
-    }
-
     return (
       <div>
-        <div className="status">{status}</div>
         <div className="board-row">
           {this.renderSquare(0)}
           {this.renderSquare(1)}
@@ -94,6 +69,24 @@ class Game extends React.Component {
     };
   }
   
+  // Incidence of 'X' & 'O' and xIsNext boolean allows for player turns
+  handleClick(i) {
+    const history = this.state.history;
+    const current = history[history.length - 1];
+    const squares = current.squares.slice();
+    // function returns early if game won or Square already filled 
+    if (calculateWinner(squares) || squares[i]) {
+      return;
+    }
+    squares[i] = this.state.xIsNext ? 'X' : 'O';
+    this.setState({
+      history: history.concat([{
+        squares: squares,
+      }]),
+      xIsNext: !this.state.xIsNext,
+    });
+  }
+  
   render() {
     return (
       <div className="game">
@@ -104,7 +97,7 @@ class Game extends React.Component {
           />
         </div>
         <div className="game-info">
-          <div>{/* status */}</div>
+          <div>{status}</div>
           <ol>{/* TODO */}</ol>
         </div>
       </div>
