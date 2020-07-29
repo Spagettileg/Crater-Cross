@@ -20,15 +20,6 @@ function Square(props) {
 // Create gaming board. Squares based on index scoring from 0 to 8
 
 class Board extends React.Component {
-  // Constructor helps control the Squares by passing a prop to each Square
-  // User options = X, O or null (blank)
-  constructor(props) {
-    super(props);
-    this.state = {
-      squares: Array(9).fill(null),
-      xIsNext: true,
-    };
-  }
   
   // Incidence of 'X' & 'O' and xIsNext boolean allows for player turns
   handleClick(i) {
@@ -49,8 +40,8 @@ class Board extends React.Component {
   renderSquare(i) {
     return ( 
       <Square
-        value={this.state.squares[i]}
-        onClick={() => this.handleClick(i)}
+        value={this.props.squares[i]}
+        onClick={() => this.props.onClick(i)}
       />
     );
   }
