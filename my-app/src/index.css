@@ -30,6 +30,7 @@ ol, ul {
   padding: 0;
   text-align: center;
   width: 10rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 8, 57, 0.75), 0 6px 10px 0 rgba(0, 8, 57, 0.75);
   animation: square-spin 1.5s linear;
 }
 
