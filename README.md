@@ -6,7 +6,7 @@ A live demo can be found []().
 
 ***
 <div align="center">
-<img src="static/images/oxo1-pic.png">
+<img src="static/images/game-pic.png">
 </div>
 
 ## Table of Contents
