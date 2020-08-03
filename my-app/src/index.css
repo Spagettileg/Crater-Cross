@@ -69,3 +69,8 @@ button.square[game-id="O"] {
 .game-info {
   margin-left: 1.25rem;
 }
+
+.logo {
+  font-size: 4rem;
+  font-weight: 500;
+}
