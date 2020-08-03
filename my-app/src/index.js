@@ -72,7 +72,7 @@ class Game extends React.Component {
   
   // Incidence of 'X' & 'O' and xIsNext boolean allows for player turns
   handleClick(i) {
-    const history = this.state.history;
+    const history = this.state.history.slice(0, this.state.stepNumber + 1);
     const current = history[history.length - 1];
     const squares = current.squares.slice();
     // function returns early if game won or Square already filled 
@@ -84,6 +84,7 @@ class Game extends React.Component {
       history: history.concat([{
         squares: squares,
       }]),
+      stepNumber: history.length,
       xIsNext: !this.state.xIsNext,
     });
   }
