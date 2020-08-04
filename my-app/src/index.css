@@ -43,6 +43,12 @@ ol, ul {
   to { transform: rotate(90deg); }
 }
 
+button {
+  border: 2px solid #005082;
+  color: #005082;
+  font-weight: 600;
+}
+
 button.square[game-id="X"] {
   background-color: #FFA41B;
   /* Yellow */
@@ -70,14 +76,41 @@ button.square[game-id="O"] {
 
 .game-info {
   margin-left: 1.25rem;
+  margin-top: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border: 3px dotted #00A8CC;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #00A8CC;
+}
+
+.game-status {
+  color: #005082;
 }
 
 .logo {
   font-size: 4rem;
   font-weight: 500;
+  color: #005082;
 }
 
 .yellow-crater {
   color: #FFA41B;
   font-weight: 700;
+}
+
+
+/*--------Media Queries---------*/
+
+@media screen and (max-width: 375px) {
+  /*mobile*/
+  .square {
+    font-size: 3rem;
+    height: 4rem;
+    line-height: 4rem;
+    width: 4rem;
+  }
 }
