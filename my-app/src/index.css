@@ -1,6 +1,14 @@
+.row {
+    margin-left: 0;
+    /*helps remove unecessary white space on right vertical*/
+    margin-right: 0;
+    /*as above*/
+}
+
 body {
   font: 0.875rem "Century Gothic", Futura, sans-serif;
-  margin: 1.25rem;
+  padding: 0;
+  margin: 0;
 }
 
 ol, ul {
@@ -104,6 +112,34 @@ button.square[game-id="O"] {
   font-weight: 700;
 }
 
+/*---------------Footer---------------------*/
+
+#footer {
+    background-color: #005082;
+    /*Med Blue*/
+    border-color: #005082;
+    /*Med Blue*/
+    color: #FFA41B;
+    height: 25vh;
+    text-align: center;
+}
+
+.footer-text {
+  padding-top: 0;
+}
+
+.spacer {
+  height: 10vh;
+}
+
+.logo-footer {
+  padding-top: 1.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-align: center;
+}
+
 /*--------Media Queries---------*/
 
 @media (max-width: 375px) {
@@ -116,6 +152,9 @@ button.square[game-id="O"] {
   }
   .logo {
     font-size: 3rem;
+  }
+  .footer-text {
+    padding-top: 2rem;
   }
 }
 
