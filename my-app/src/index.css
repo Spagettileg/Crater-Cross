@@ -72,10 +72,11 @@ button.square[game-id="O"] {
 .game {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .game-info {
-  margin-left: 1.25rem;
   margin-top: 2rem;
   padding-right: 2rem;
   padding-left: 2rem;
