@@ -120,6 +120,7 @@ class Game extends React.Component {
     }
     
     return (
+      <div>
       <div className="game">
         <div className="game-board">
           <Board
@@ -127,10 +128,13 @@ class Game extends React.Component {
             onClick={(i) => this.handleClick(i)}
           />
         </div>
+      </div>
+      <div className="game">
         <div className="game-info">
-          <div>{status}</div>
-          <ol>{moves}</ol>
-        </div>
+            <div className="game-status">{status}</div>
+            <ol>{moves}</ol>
+          </div>
+      </div>
       </div>
     );
   }
