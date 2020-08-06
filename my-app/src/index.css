@@ -169,4 +169,7 @@ button.square[game-id="O"] {
   .logo {
     font-size: 3rem;
   }
+  #footer {
+    height: 30vh; 
+  }
 } 
