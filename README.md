@@ -118,6 +118,14 @@ Test analysis and reporting can be viewed in a separate [TESTS.md](https://githu
 
 ### Content
 
+Orignal [tic-tac-toe](https://reactjs.org/tutorial/tutorial.html) code snippet sourced from React Tutorials. The code was then modified to include the following:
+
+- Draw outcome notification
+- Display the location for each move in the format (col, row) in the move history list
+- Added a toggle button that lets you sort the moves in either ascending or descending order
+- Highlight x3 winning squares when a player wins
+
+
 ### Media
 
 Image used for README.md introduction sourced from [Board Games Galore Wikia](https://board-games-galore.fandom.com/wiki/Tic-tac-toe)
