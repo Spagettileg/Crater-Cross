@@ -120,7 +120,7 @@ button.square[game-id="O"] {
     border-color: #005082;
     /*Med Blue*/
     color: #FFA41B;
-    height: 25vh;
+    height: 30vh;
     text-align: center;
 }
 
@@ -177,3 +177,4 @@ button.square[game-id="O"] {
     height: 40vh; 
   }
 } 
+
