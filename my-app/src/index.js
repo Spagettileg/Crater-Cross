@@ -135,7 +135,7 @@ class Game extends React.Component {
     });
     
     // No null (blank) squares = draw outcome
-    // Null sqaures = Game has been won, as an outcome
+    // Null squares = Game has been won, as an outcome
     let status;
     if (winner) {
       status = 'Winner: Player ' + winner;
@@ -154,6 +154,9 @@ class Game extends React.Component {
             onClick={(i) => this.handleClick(i)}
           />
         </div>
+      </div>
+      <div className="reset">
+        <a href="index.html" className="reset-button">Reset</a>
       </div>
       <div className="game">
         <div className="game-info">
