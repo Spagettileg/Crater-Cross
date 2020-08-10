@@ -68,7 +68,7 @@ Yellow        | #FFA41B
 Dark Blue     | #000839
 Med Blue      | #005082
 Light Blue    | #00A8CC
-PillarBox Red | #FF3300
+
 
 ### Typography
 
