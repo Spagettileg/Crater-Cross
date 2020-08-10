@@ -46,12 +46,6 @@ ol, ul {
   outline: none;
 }
 
-.square-winning {
-  /*PillarBox Red*/
-  background-color: #FF3300;
-  animation: square-spin 1s linear;
-}
-
 @keyframes square-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(90deg); }
