@@ -134,6 +134,8 @@ class Game extends React.Component {
         );
     });
     
+    // No null (blank) squares = draw outcome
+    // Null sqaures = Game has been won, as an outcome
     let status;
     if (winner) {
       status = 'Winner: Player ' + winner;
