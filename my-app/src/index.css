@@ -112,6 +112,31 @@ button.square[game-id="O"] {
   font-weight: 700;
 }
 
+.reset {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.reset-button {
+  background-color: #FFFFFF;
+  padding: 0.5rem;
+  border: 3px solid #00A8CC;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.reset-button:hover {
+  background-color: #00A8CC;
+  border: 3px solid #00A8CC;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+
 /*---------------Footer---------------------*/
 
 #footer {
