@@ -71,6 +71,7 @@ class Game extends React.Component {
   }
   
   // Incidence of 'X' & 'O' and xIsNext boolean allows for player turns
+  // Location of users sqaure selection captured as (col / row) array 
   handleClick(i) {
     const locations = [
       [1, 1],
