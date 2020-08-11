@@ -158,6 +158,39 @@ To clone this project from GitHub:
 
 7. Press Enter. Your local clone will be created.
 
+To run a React app, then **node package manager** (npm) needs to be installed. This is a dependency management tol for Javascript applications. This tool will help to install and the libraries and other tools to support React development.  
+
+1. Install **nodejs** - Set up PPA (personal package archive)
+ 
+    - `cd~`
+    - `curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh`
+
+2. Run the downloaded script using below command
+
+    - `sudo bash nodesource_setup.sh`
+
+3. Install
+
+    - `sudo apt-get install nodejs -y`
+
+4. Testing nodejs installation
+
+    - `node -v`
+    - Current version will appear in console window i.e. `v10.15.1`
+    - `npm -v`
+    - Current version will appear in console window i.e. `v6.4.1`
+
+5. Install create react app
+
+    - `npm install -g create-react-app`
+
+6. Test create-react-app
+
+    - `create-react-app --version`
+    - Current version will appear in console window i.e. v.2.3.1
+    
+To run the react application, key `npm start` in console.
+
 Further reading and troubleshooting on cloning a repository from [GitHub](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 ## Credits
