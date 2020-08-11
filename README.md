@@ -122,6 +122,9 @@ No additional styling via fontawesome or materialize was required for this proje
 9. Footer sets out the website authors credentials
 
 ### Features Left to Implement
+1. Sound options for game initiation, in-game moves & game outcome (win/draw) to be added
+2. Game time to be controlled by timer per move to ensure quick game time
+
 
 ## Testing
 Test analysis and reporting can be viewed in a separate [TESTS.md](https://github.com/Spagettileg/Crater-Cross/blob/master/TESTS.md) file.
