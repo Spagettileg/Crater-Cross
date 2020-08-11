@@ -36,8 +36,14 @@ A live demo can be found []().
 
 ## UXD Considerations
 ### Ambition
+To create an addictive and competitive game based upon an age old classic 'tic-tac-toe'. 
 
 #### User
+- An attractive, yet simple design to encourage game play over a short period of time 
+- Game play to be restricted to 1 screen
+- A quick game reset function helps with continuous game play
+- Access to live game history and profide an opportunity for players to unpick their last move. if that same move had been made in error
+- Game moves can be sorted in either ascending or descending order
 
 #### Crater-Cross
 
@@ -71,8 +77,10 @@ Light Blue    | #00A8CC
 
 
 ### Typography
+[Century Gothic](https://fonts.google.com/), [Futura](https://fonts.google.com/)  & [Sans Serif](https://fonts.google.com/) fonts were used throughout this project.
 
 ### Icon Graphics
+No additional styling via fontawesome or materialize was required for this project
 
 ## Technologies Applied
 ### Languages
@@ -84,8 +92,6 @@ Light Blue    | #00A8CC
 
 
 ### Libraries
-•	[Font Awesome](https://fontawesome.com/) v5.8.2 to provide the icon set
-
 •	[Google Fonts](https://fonts.google.com/) provided the fonts used throughout the project
 
 •	[jQuery](https://jquery.com/) is used to manipulate the DOM, for example buttons, and showing / hiding elements
@@ -105,6 +111,15 @@ Light Blue    | #00A8CC
 
 
 ## Features
+1. All 9 gaming squares rotate 90 degrees prior to start of play. Move is designed to create further visual interest for a game that historically lacks features
+2. Player X always starts the game. They are identified with a blue "X" on a yellow background
+3. Player O takes the next move. They are identified with a yellow "O" on a blue background
+4. A reset button can return the game to the start at any given time
+5. Player turns are confirmed in a clear text narrative. This is continuousuntil game has been won or drawn
+6. Live game history is recorded. Players can restart the game at any given point
+7. Game moved can be sorted in either ascending or descending order
+8. Either 3 XXX or OOO in a row will determine the winner
+9. Footer sets out the website authors credentials
 
 ### Features Left to Implement
 
