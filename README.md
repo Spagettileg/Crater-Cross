@@ -130,8 +130,23 @@ No additional styling via fontawesome or materialize was required for this proje
 Test analysis and reporting can be viewed in a separate [TESTS.md](https://github.com/Spagettileg/Crater-Cross/blob/master/TESTS.md) file.
 
 ## Deployment
+This project was developed using the [AWS Cloud9 IDE](https://aws.amazon.com/cloud9/), committed to git and pushed to GitHub using the built in function within cloud9.
+
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/Spagettileg/Crater-Cross), the following steps were taken:
+
+1. Log into GitHub
+2. From the list of repositories on the screen, select **Spagettileg/Crater-Cross**
+3. From the menu items near the top of the page, select **Settings**
+4. Scroll down to the **GitHub Pages** section
+5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed
+7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website
+
+At the moment of submitting this project the Development Branch and Master Branch are identical.
 
 ### Local Deployment
+
+
 
 ## Credits
 
