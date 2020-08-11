@@ -145,8 +145,20 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 At the moment of submitting this project the Development Branch and Master Branch are identical.
 
 ### Local Deployment
+To clone this project from GitHub:
 
+1. Follow this link to the [Project GitHub repository](https://github.com/Spagettileg/Crater-Cross)
+2. Under the repository name, click **"Clone or download"**
+3. In the **Clone with HTTPs section**, copy the clone URL for the repository
+4. In your local IDE open **Ubuntu Bash**
+5. Change the current working directory to the location where you want the cloned directory to be made
+6. Type `git clone`, and then paste the URL you copied in Step 3
 
+`git clone https://github.com/USERNAME/REPOSITORY`
+
+7. Press Enter. Your local clone will be created.
+
+Further reading and troubleshooting on cloning a repository from [GitHub](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 ## Credits
 
