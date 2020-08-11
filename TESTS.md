@@ -7,7 +7,7 @@ View [Crater-Cross](https://spagettileg.github.io/Crater-Cross/) as a deployed p
 ## Table of Contents
 1. [Introduction](#introduction) 
 2. [Systems Based Testing](#systems-based-testing)
-    * [Jasmine](#jasmine)
+    * [npm compiler](#npm-compiler)
 3. [Manual Testing](#manual-testing)
 4. [Code Validation](#code-validation)
     * [Responsiveness and Rendering](#responsiveness-and-rendering)
@@ -17,23 +17,26 @@ View [Crater-Cross](https://spagettileg.github.io/Crater-Cross/) as a deployed p
 ## Introduction
 
 A combination of automated and manual testing processes was applied to this project
-to ensure the UXD was upheld by making sure the data was correctly loaded, graphical
-charts would be successfully rendered and data filters would accurately enable the user
-to navigate through student and gender data attributes.  
+to ensure the UXD was upheld by making sure the gaming grid, player pieces, reset button, gaming history and game outcome correctly rendered.  
 
 The software has been thoroughly tested in many ways. JavaScript and its associated functions have all undergone extensive manual testing.  JS hint was used to help validate the Javascript code. 
 
-Chrome dev tools provided one issue where all charts were not being rendered. The dc.min.css file included a default coding position of ‘float: left. To fix this bug, ‘float: none!important’ was added to style.css file. 
+Chrome dev tools provided one issue where all charts were not being rendered.  
 
-Furthermore, the software has been tested against all user expectations that were set out in UX section above. All possible user actions were mimicked to put the tester in the shoes of the user.  Data was compared by minimizing certain sections, filter the specific data and reset all the filters. The whole data manipulation experience was intuitive and enables both the tester and user to efficiently analyse the data and draw meaningful conclusions. 
+Furthermore, the software has been tested against all user expectations that were set out in UX section above. All possible user actions were mimicked to put the tester in the shoes of the user.   
 
 ## Systems Based Testing
-### Jasmine
+### npm compiler
+All code entered was automatically validated via the npm compiler tool.
+
+Real time errors were corrected to ensure the project rendered correctly in the web browser.
 
 ## Manual Testing
 
-Testing for this project was completed on Chrome, Edge, Firefox, Safari & Opera browsers.
+Testing for this project was completed on Chrome, Edge, Firefox, Safari & Opera browsers. Internet Explorer browser is now considered obsolete and exluded from testing. 
+
 Responsiveness and correct displaying of all elements has been tested on a number of device and resolutions.
+
 All display without issue.
 
 Device Category  |  Description
@@ -50,7 +53,7 @@ Desktop          | >1440px
 
 ## Code Validation
 
-•	HTML Validator (https://validator.w3.org/) used and shows the html document to be valid. Slight issue on hr tag being used in footer, but no detrimental effect upon web page performance
+•	HTML Validator (https://validator.w3.org/) used and shows the html document to be valid. 
 
 •	CSS Validator (https://jigsaw.w3.org/css-validator/) used and shows the stylesheet to be valid CSS level 3 + SVG
 
@@ -62,7 +65,7 @@ The Crater-Cross application has been tested by students from the Slack communit
 In the final analysis, this application can be passed as fully responsive across all devices that participated in testing.
 
 ### Browser Compatibility
-The following browsers were used in testing the Re-Boot application. Internet Explorer was out of scope for testing due to obsolete capability
+The following browsers were used in testing the Crater-Cross application. Internet Explorer was out of scope for testing due to obsolete capability
 
 platform | version
 ---------|--------
@@ -73,3 +76,4 @@ Safari   |12.4.6
 Opera    |68.0.3618.173
 
 ### Known Bugs
+None reported.
