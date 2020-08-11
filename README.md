@@ -32,7 +32,6 @@ A live demo can be found []().
 6. [Credits](#credits)
     * [Content](#content)
     * [Media](#media)
-    * [Acknowledgements](#acknowledgements)
 
 ## UXD Considerations
 ### Ambition
@@ -208,8 +207,6 @@ Orignal [tic-tac-toe](https://reactjs.org/tutorial/tutorial.html) code snippet s
 ### Media
 
 Image used for README.md introduction sourced from [Board Games Galore Wikia](https://board-games-galore.fandom.com/wiki/Tic-tac-toe)
-
-### Acknowledgements
 
 
 **This is for educational use.** 
