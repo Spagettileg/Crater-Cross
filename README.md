@@ -1,5 +1,6 @@
-# Crater-Cross
-
+<div align="center">
+<img src="static/images/logo-pic.png">
+</div>
 
 ## Demo
 A live demo can be found [here](https://spagettileg.github.io/Crater-Cross/).
@@ -47,7 +48,9 @@ To create an addictive and competitive game based upon an age old classic 'tic-t
 #### Crater-Cross
 
 ## Wireframes
+My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com/) to showcase the 'Crater-Cross' website responsiveness on mobile, tablet and desktop devices.
 
+- [Crater-Cross](https://spagettileg.github.io/Crater-Cross/)
 
 ## User Stories
 > I need an game that is quick and provides a win, lose or draw outcome  
