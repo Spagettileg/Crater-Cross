@@ -143,6 +143,21 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
 6. On selecting Master Branch the page is automatically refreshed, the website is now deployed
 7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website
+8. Add `homepage` to `package.json` file
+
+- `"homepage": "https://spagettileg.github.io/Crater-Cross/",`  
+
+9. Key `npm install --save gh-pages` in bash ubuntu terminal window. The user will see the following response;
+
+- `gh-pages@3.1.0` 
+
+10. Add the following scripts to `package.json` file;
+
+
+`"predeploy": "npm run build",`
+`"deploy": "gh-pages -b master -d build",`
+
+
 
 At the moment of submitting this project the Development Branch and Master Branch are identical.
 
